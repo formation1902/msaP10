@@ -1,3 +1,24 @@
+Publier le modele Luis
+
+Utiliser un IDE tel que VS Code pour faciliter de développement
+
+adapter le code pour faire fonctionner le chatbot dans le contexte du projet https://github.com/microsoft/BotBuilder-Samples/tree/main/samples/python/21.corebot-app-insights
+
+Déploiement sur azure
+
+Ecrire des tests unitaires ( 3 tests unitaires s’exécute automatiquement lorsque du code est poussé sur github)
+
+versionner le code sur github
+
+créer une application webapp classique d’Azure  sur Azure
+
+créer une App Insights sur azure ( activer telemetry_client.track_trace pour le sauvegarde des discussion, des alertes doivent être créé depuis App InSights pour le suivi de performance du bot)
+
+Automatiser le déploiement du bot avec les actions de github
+
+
+
+
 #
 # Le 8 Novembre :
 #
@@ -17,3 +38,33 @@ P10 :
 adapter le code pour faire fonctionner le chatbot dans le contexte du projet :
 
 https://github.com/microsoft/BotBuilder-Samples/tree/main/samples/python/21.corebot-app-insights
+
+
+########################################################################
+# 30 Novembre
+########################################################################
+1. Avancées de l’étudiant sur son projet depuis la dernière session
+
+2. Principaux sujets abordés pendant la session, obstacles à surmonter (le cas échéant), et actions nécessaires pour atteindre ces objectifs7
+
+Debriefing soutenance
+Plan d'action
+3. Objectifs 'SMART' fixés par l'étudiant et le mentor pour la prochaine session
+
+Publier le modele Luis
+
+Utiliser un IDE tel que VS Code pour faciliter de développement
+
+adapter le code pour faire fonctionner le chatbot dans le contexte du projet https://github.com/microsoft/<wbr />BotBuilder-Samples/tree/main/<wbr />samples/python/21.corebot-app-<wbr />insights
+
+Déploiement sur azure
+
+Ecrire des tests unitaires ( 3 tests unitaires s’exécute automatiquement lorsque du code est poussé sur github)
+
+versionner le code sur github
+
+créer une application webapp classique d’Azure  sur Azure
+
+créer une App Insights sur azure ( activer telemetry_client.track_trace pour le sauvegarde des discussion, des alertes doivent être créé depuis App InSights pour le suivi de performance du bot)
+
+Automatiser le déploiement du bot avec les actions de github
