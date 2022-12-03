@@ -1,0 +1,11 @@
+
+Bot : architecture du traitement d'une requete :
+------------------------------------------------
+https://www.youtube.com/watch?v=ynG6Muox81o&list=PL-PgMmMmma8DItgH7hO7oJHG8mHm8-7iA&index=35
+
+
+
+Write unit test :
+-----------------
+https://www.youtube.com/watch?v=6XxLcK33Vx0&list=PL-PgMmMmma8DItgH7hO7oJHG8mHm8-7iA&index=8
+

@@ -1,0 +1,44 @@
+
+
+La bibliotheque du client LUIS:
+
+# pip install azure-cognitiveservices-language-luis
+
+
+
+from azure.cognitiveservices.language.luis.authoring            import      LUISAuthoringClient
+from azure.cognitiveservices.language.luis.authoring.models     import      ApplicationCreateObject
+from azure.cognitiveservices.language.luis.runtime              import      LUISRuntimeClient
+from msrest.authentication                                      import      CognitiveServicesCredentials
+from functools import reduce
+
+import json, time, uuid
+
+
+
+L’objet principal dans un modèle d’application LUIS est l’intention. 
+
+Le nom de l’intention unique,
+
+L’entité extrait des informations à partir de l’énoncé utilisateur, qui sont nécessaires pour répondre à l’intention de l’utilisateur.
+
+
+Il est important de savoir que les entités ne sont pas marquées avec une intention. Elles peuvent s’appliquer à de nombreuses intentions. Seuls les exemples d’énoncés utilisateur sont marqués pour une intention unique spécifique.
+
+
+
+Les méthodes de création pour les entités font partie de la classe ModelOperations. 
+
+
+Les méthodes de création pour les entités font partie de la classe ModelOperations. 
+Chaque type d’entité possède son propre modèle DTO (Data Transformation Object).
+
+
+
+Pour déterminer l’intention d’un énoncé et extraire des entités, l’application a besoin d’exemples d’énoncés. 
+Les exemples doivent cibler une intention spécifique et unique, et doivent marquer toutes les entités personnalisées. 
+Les entités prédéfinies n’ont pas besoin d’être marquées.
+
+
+
+

@@ -1,0 +1,19 @@
+#
+# Le 8 Novembre :
+#
+P10 :
+
+- préparer les données accepté par le SDK de LUIS (text, intentName, entityLabels, startCharIndex / endCharIndex / entityName)
+    https://learn.microsoft.com/fr-fr/azure/cognitive-services/luis/client-libraries-rest-api?tabs=windows&pivots=programming-language-python
+    https://github.com/Azure-Samples/cognitive-services-python-sdk-samples/blob/master/samples/language/luis/luis_authoring_samples.py
+- Créer une application Luis
+- Faire l'entrainement du modèle Luis 
+
+
+
+#
+# 13 Novembre
+#
+adapter le code pour faire fonctionner le chatbot dans le contexte du projet :
+
+https://github.com/microsoft/BotBuilder-Samples/tree/main/samples/python/21.corebot-app-insights
