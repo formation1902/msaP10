@@ -1,0 +1,15 @@
+{
+    "name": "p10_3Decembre",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "name": "p10_3_decembre_Bot",
+            "endpoint": "http://127.0.0.1:3978/p10/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "path": "/msaOpenClassrooms/p10_2_decembre/p10_3_Decembre_newBotConfigurationFile",
+    "overrides": null
+}

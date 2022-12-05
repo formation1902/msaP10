@@ -12,7 +12,10 @@ from botbuilder.schema  import ActivityTypes, Activity
 
 
 class AdapterWithErrorHandler(BotFrameworkAdapter):
+    nb=0
     def __init__(self,settings: BotFrameworkAdapterSettings,conversation_state: ConversationState):
+        AdapterWithErrorHandler.nb+=1
+        print("INFO: [AdapterWithErrorHandler : instatiated] nb = ",AdapterWithErrorHandler.nb)
         super().__init__(settings)
         self._conversation_state = conversation_state
 
