@@ -58,3 +58,13 @@ Runners:
 	- GitHub provides Ubuntu Linux, Microsoft Windows, and macOS runners to run your workflows; 
 	- Each workflow run executes in a fresh, newly-provisioned virtual machine. 
 	- GitHub also offers larger runners, which are available in larger configurations. For more information, see "Using larger runners." If you need a different operating system or require a specific hardware configuration, you can host your own runners. For more information about self-hosted runners, see "Hosting your own runners."
+
+
+
+#################################################################################################
+#################################################################################################
+##############################																	#
+############################## ---------- continuous integration using GitHub Actions --------- #
+##############################																	#
+#################################################################################################
+#################################################################################################	
